@@ -1,0 +1,22 @@
+========================================================================
+INSTRUCCIONES DE CONFIGURACIÓN E INICIALIZACIÓN DE MONGODB
+Proyecto: Sistema de Gestión Académica (Clave 3) - Grupo 3 (POO115)
+========================================================================
+
+1. PARÁMETROS DE CONEXIÓN:
+   - URI del servidor: mongodb://localhost:27017
+   - Nombre de la Base de Datos: sistemagestionacademica_db
+   - Colecciones: usuarios, estudiantes, cursos, matriculas
+
+2. PASOS PARA CARGAR LOS DATOS DE PRUEBA (init_mongodb.js):
+   Opción A (Desde MongoDB Compass):
+   1. Conéctese a mongodb://localhost:27017 en MongoDB Compass.
+   2. Abra la pestaña inferior ">_MONGOSH".
+   3. Copie y pegue todo el contenido del archivo init_mongodb.js y presione Enter.
+
+   Opción B (Desde terminal de comandos):
+   1. Ejecute el comando: mongosh < init_mongodb.js
+
+3. CREDENCIALES DE INICIO DE SESIÓN (Almacenadas con Hash SHA-256):
+   - Usuario 1: admin  | Contraseña: admin123
+   - Usuario 2: bryan  | Contraseña: poo2026
